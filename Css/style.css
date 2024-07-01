@@ -4341,6 +4341,7 @@ a {
   width: 110%;
   object-fit: cover;
   position: absolute;
+  bottom: -150%;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }

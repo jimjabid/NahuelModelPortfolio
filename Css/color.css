@@ -227,7 +227,7 @@ html {
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    /* -moz-osx-font-smoothing: grayscale; */
+    -moz-osx-font-smoothing: grayscale;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -3168,7 +3168,7 @@ html {
   }
   
   .bg-black {
-    background-color: #f1f0f0;
+    background-color: #000;
   }
   
   .div-hide {
@@ -3206,22 +3206,8 @@ html {
   }
   
   .text-white {
-    color: #000;
-  }
-
-  .text-white-hero{
-   color: #fbfbfb;
-  }
-
-  .text-white-hero-blend{
     color: #fbfbfb;
-    mix-blend-mode: difference;
-   }
-
-  /* .text-hero{
-    background-color: #000;
-    mix-blend-mode: difference;
-  } */
+  }
   
   .text-white.helvetica-light {
     font-family: Helveticaneuelt, sans-serif;
@@ -3495,7 +3481,7 @@ html {
   
   .body-change {
     color: #000;
-    background-color: #f1f0f0;
+    background-color: #000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3869,7 +3855,7 @@ html {
   
   .navigation-holder {
     z-index: 10;
-    background-color: #f9f9f9;
+    background-color: #000;
     padding-top: 1.2em;
     padding-bottom: 1.2em;
     position: relative;
@@ -3991,7 +3977,7 @@ html {
   }
   
   .nahuel-intro-heading {
-    color: #000;
+    color: #fbfbfb;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -4020,12 +4006,11 @@ html {
     align-items: center;
     display: flex;
     overflow: hidden;
-    /* position: relative; */
   }
   
   .nahuel-bio-r {
     width: 70%;
-    color: #000;
+    color: #fbfbfb;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 10em;
@@ -4036,7 +4021,6 @@ html {
     width: 100%;
     height: 100%;
     /* filter: grayscale(); */
-    min-height: 500px;
     object-fit: cover;
     position: relative;
     overflow: hidden;
@@ -4180,17 +4164,6 @@ html {
     display: flex;
     position: relative;
   }
-
-  .porfolio-bio-overlay{
-    background-color: rgba(0, 0, 0, 0.35);
-    transition: all 0.4s;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    z-index: 15;
-  }
   
   .porfolio-home-overlay {
     background-color: rgba(0, 0, 0, 0.35);
@@ -4201,7 +4174,6 @@ html {
     left: 0%;
     right: 0%;
   }
-
   
   .porfolio-home-overlay:hover {
     -webkit-backdrop-filter: none;
@@ -4247,7 +4219,7 @@ html {
   }
   
   .nahuel-footer {
-    background-color: #f1f0f0;
+    background-color: #000;
     padding-top: 8em;
     padding-bottom: 2em;
   }
@@ -4292,7 +4264,7 @@ html {
   
   .personal-porfolio-parent {
     height: 85vh;
-    /* filter: grayscale(); */
+    filter: grayscale();
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("https://assets.website-files.com/621950d533c1482d55629e79/6237cc0bd5b511fd0dd7ef6e_IMG_6687.JPG");
     background-position: 0 0, 50% 40%;
@@ -4339,7 +4311,7 @@ html {
   }
   
   .looping-heading {
-    color: #000;
+    color: #fbfbfb;
     letter-spacing: 0;
     text-transform: uppercase;
     font-size: 6em;
@@ -4357,7 +4329,7 @@ html {
   .heading-separator {
     width: 60px;
     height: 2px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(251, 251, 251, 0.7);
   }
   
   .heading-separator.mobile-only {
@@ -4370,8 +4342,8 @@ html {
     object-fit: cover;
     position: absolute;
     bottom: -150%;
-    /*-webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 */
-    /* filter: grayscale(100%); */
+    /*-webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);*/
   }
   
   .nahuel-img-model-overlay {
@@ -4593,7 +4565,7 @@ html {
     z-index: 500;
     width: 100vw;
     height: 100vh;
-    background-color: #f1f0f0;
+    background-color: #000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4668,8 +4640,6 @@ html {
   .hero-text-b,
   .hero-text-c {
     display: inline-block;
-    mix-blend-mode: exclusion;
-    color: white;
   }
   
   .nahuel-home-showcase-container {
@@ -5132,10 +5102,10 @@ html {
       width: 50em;
     }
   
-    /* .porfolio-home-overlay {
+    .porfolio-home-overlay {
       -webkit-backdrop-filter: grayscale();
       backdrop-filter: grayscale();
-    } */
+    }
   
     .super-text-footer {
       font-size: 14vw;
