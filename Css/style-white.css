@@ -227,7 +227,7 @@ html {
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* -moz-osx-font-smoothing: grayscale; */
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -4292,7 +4292,7 @@ html {
   
   .personal-porfolio-parent {
     height: 85vh;
-    filter: grayscale();
+    /* filter: grayscale(); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("https://assets.website-files.com/621950d533c1482d55629e79/6237cc0bd5b511fd0dd7ef6e_IMG_6687.JPG");
     background-position: 0 0, 50% 40%;
@@ -5131,10 +5131,10 @@ html {
       width: 50em;
     }
   
-    .porfolio-home-overlay {
+    /* .porfolio-home-overlay {
       -webkit-backdrop-filter: grayscale();
       backdrop-filter: grayscale();
-    }
+    } */
   
     .super-text-footer {
       font-size: 14vw;
